@@ -1,0 +1,229 @@
+body {
+	background-image:url('../image/BodyBackground.gif');
+ 	text-align: center; 
+/* 	font-size : 2em; */
+	font-variant:small-caps;
+	font-weight:800;
+	font-variant:common-ligatures;
+	color:#f7f6f5;
+}
+label{
+	font-size:1.3em;
+}
+
+form{
+	
+	border-radius: 3em;
+
+}
+h1{
+	font-weight:bolder;
+	text-decoration:underline;
+	font-family:sans-serif;
+}
+div{
+/* 	background-image:url('../image/devBackground.jpg'); */
+	margin-top:10px;
+	color:rgb(255, 255, 255);
+/* 	position:relative; */
+}
+
+
+/*Text And Password field*/
+
+.inlineClass{
+	
+z-index: 0;
+width:50%;
+font-variant:small-caps;
+
+height:90px;
+display: block;
+text-align:center;
+margin-right: auto;
+margin-left: auto;
+background-color:rgba(98, 98, 101, 0.38);
+
+}
+
+
+div:nth-child(1){
+	padding-top:40px;
+	margin-bottom: -10px;
+	border-top-left-radius:10px;
+	border-top-Right-radius:10px;
+	border-top-style:groove;
+	border-right-style:groove;
+	border-left-style:groove;
+
+}
+
+
+div:nth-child(2){
+	border-bottom-left-radius:10px;
+	border-bottom-Right-radius:10px;
+	border-bottom-style:groove;
+	border-right-style:groove;
+	border-left-style:groove;
+
+
+}
+
+div:nth-child(1) label ,  div:nth-child(2) label{
+	text-decoration:underline;
+	text-align:left;
+
+
+}
+	
+div:nth-child(1) input , div:nth-child(2) input{
+
+	top:40;
+	text-align:center;
+	height:20px;
+	width:30em;
+	border
+	border-radius:10px;
+	background-color:rgba(0, 0, 0, 0.22)	;
+	color: white;
+
+}
+/* Set Action in textbox */
+div:nth-child(1) input:hover , div:nth-child(2) input:hover{
+/* 	background-color:aqua; */
+/* border: 5px solid rgba(255, 242, 241, 0.68); */
+	height:22px;
+	width:31em;
+}
+div:nth-child(1) input:focus , div:nth-child(2) input:focus{
+		height:22px;
+	width:31em;
+}
+
+
+	
+
+
+/*Check And Radio block*/
+
+div.checkradio{
+	font-variant: small-caps;
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-bottom:10px;
+
+	border:5px outset;
+	border-collapse: collapse;
+	
+}
+
+#check{
+
+	display:block;
+	background-color:rgba(29, 29, 29, 0.55);
+	border-color:rgba(0, 0, 0, 0);
+	border-radius:120px 120px 0px 0px;
+	width:290px;
+	height:10;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+#radio{
+	display:block;
+	background-color:rgba(29, 29, 29, 0.55);
+	border-color:rgba(0, 0, 0, 0);
+	margin-top:-10px;
+
+	width:290px;
+	height:10px;
+	padding-top:10px;
+	padding-bottom:40px;
+		border-radius:0px 0px 220px 0px;
+
+}
+
+
+/* button  */
+
+.btn{
+	color:white;
+	width:100px;
+	height:50px;
+	font-size:1.2em;
+	background-color:rgba(0, 0, 0, 0.45);
+	font-variant:all-petite-caps;
+}
+
+.btn:hover{
+	color:black;
+	background-color:white;
+}
+
+#btnLeft{
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+}
+#btnRight{
+		border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+#btnCenter{
+	width:150px;
+}
+/* multiLine Textbox  */
+#multitxt{
+	font-variant:small-caps;
+	font-size:1.5em;
+	position:relative;
+	left:-210px;
+	text-decoration:underline;
+	margin-bottom :10px;
+	display:block;
+}
+
+textarea{
+	border: 3px outset rgb(25, 25, 25);
+	border-radius: 9px;
+	width:50%;
+}
+
+#lblList{
+		font-variant:small-caps;
+	font-size:1.5em;
+	position:relative;
+	left:-270px;
+
+	display:block;
+}
+#lst{
+	background-color:rgba(0, 0, 0, 0.15);
+	color:white;
+	text-align:center;
+	font-variant:small-caps;
+	width:50%;
+	height:200px;
+	font-size:1.2em;
+	border-radius:5px;
+	border: 2px solid rgb(0, 0, 0);
+}
+option{
+	font-size:1em;
+}
+
+option:hover{
+	font-size:1.4em;
+}
+option:checked{
+	
+	font-size:1.4em;
+}
+option:unChecked{
+	font-size:1em;
+}
+
+
+

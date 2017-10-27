@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link href="../style/form.css" rel="stylesheet" type="text/css">
+    <!-- <link href="../style/lectureStyle.css" rel="stylesheet" type="text/css"> -->
+</head>
+<body>
+    <h1>Form and controls</h1>
+    <form method="get" action="back-end.aspx">
+        <div class= "inlineClass" id ="textbox" >
+            <label>Text box</label>
+            <input type="text" id="txt" name="txt">
+        </div>
+        <div class = "inlineClass" >
+            <label>Password</label>
+            <input type="password" id="pwd" name="pwd">
+        </div>
+        <div class = "checkradio" id="check">
+            <label class="ch1">Check box 1 </label>
+            <input type="checkbox" id="chk1" name="chk1" class="ch1">
+            <label class="ch2">Check box 2 </label>
+            <input type="checkbox" id="chk2" name="chk2" class="ch2">
+        </div>
+        <div class = "checkradio" id="radio">
+            <label>Option button 1</label>
+            <input type="radio" id="rdo1" name="rdo">
+            <label>Option button 2</label>
+            <input type="radio" id="rdo2" name="rdo">
+        </div>
+        <div>
+            <label class="blockClass" >File to upload</label>
+            <input type="file" id="fil" name="fil">
+        </div>
+        <div>
+            <input id="btnLeft" class="btn" type="reset" value="Reset" id="reset" name="reset">
+            <input id="btnCenter" class="btn" type="submit" value="Submit direct" id="submit" name="submit">
+            <input id="btnRight" class="btn" type="button" value="Submit" id="Button" name="button">
+        </div>
+        <div>
+            <label id ="multitxt">Multi-line text box</label>
+            <textarea rows="5" cols="50"></textarea>
+        </div>
+        <div id="cboBlock">
+            <label>Combo Box</label>
+            <select id="cbo" name="cbo">
+                <option>combo box item 1</option>
+                <option>combo box item 2</option>
+            </select>
+        </div>
+        <div>
+            <label id="lblList" class="blockClass" >List Box</label>
+            <select id="lst" name="lst" multiple>
+                <option>list item 1</option>
+                <option>list item 2</option>
+                <option>list item 3</option>
+                <option>list item 4</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

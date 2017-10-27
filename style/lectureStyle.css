@@ -1,0 +1,71 @@
+/*label,[type=text],[type=password],[name=cbo],[rows],[multiple],[type=checkbox],[type=radio]{
+	display:block;
+	float: left;
+	font:normal 1em 'Time new Roman';
+}*/
+/*Change all the attribute upper to use form * */
+
+body{
+	font-family: "Trebuchet MS";
+}
+h1{
+	text-align: center;
+}
+form{
+	width: 30em;
+	background-color: rgba(239, 227, 227, 0.36);
+	margin: 0px auto;
+	border: 1px solid black;
+		padding: 1em 8px 1em 1em;
+}
+
+form *{
+
+	/*float: left;*/
+	font:normal 1em 'Time new Roman';
+	margin-bottom: 4px;
+
+}
+label{
+	display:block;
+	float: left;
+	display: inline-block;
+	background-color: yellow;
+	width:9em;
+}
+#txt,#pwd,#cbo{
+	width: 15em;
+	background-color: red;
+}
+
+[type=checkbox] , [type=radio]{
+	width: 4em;
+	float: left;
+}
+
+
+
+form div{
+	clear:left;
+}
+#btnLeft,#btnCenter,#btnRight{
+	width: 32%;
+}
+
+[rows],#lst{
+	width: 20em;
+	background-color: orange;
+	height: 7em;
+}
+
+#multitxt{
+	margin-top: 3em;
+}
+
+
+
+
+
+
+
+
